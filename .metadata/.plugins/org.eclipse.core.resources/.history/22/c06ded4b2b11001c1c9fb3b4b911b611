@@ -1,0 +1,11 @@
+package com.jj.springdemo.thymeleafdemo.controller;
+
+@Controller
+public class DemoController {
+	
+	@GetMapping("/")
+	public String getHomePage() {
+		return "Helloworld";
+	}
+
+}

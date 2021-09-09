@@ -1,0 +1,8 @@
+info.app.name = Spring Boot Demo
+info.app.version = 1.0
+info.app.description = This is a demo of Spring Boot
+
+management.endpoints.web.exposure.include=*
+
+server.port=7070
+

@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>Employee CRM</title>
+</head>
+<body>
+	<h3>Employee CRM</h3>
+	<hr>
+	<table border ="1">
+		<thead>
+			<th>
+			
+		</thead>
+		<tbody>
+		</tbody>	
+	</table>
+</body>
+</html>

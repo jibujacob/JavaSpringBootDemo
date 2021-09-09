@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>Employee CRM</title>
+</head>
+<body>
+	<h3>Employee CRM</h3>
+	<hr>
+	<table border ="1">
+		<thead>
+			<tr>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Email</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="tempEmployee: ${empList}">
+			
+			</tr>
+		</tbody>	
+	</table>
+</body>
+</html>

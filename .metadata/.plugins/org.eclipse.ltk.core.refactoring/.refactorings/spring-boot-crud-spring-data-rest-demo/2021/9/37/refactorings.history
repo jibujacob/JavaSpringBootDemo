@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;spring-boot-crud-spring-data-rest-demo&apos;&#x0A;- Original project: &apos;spring-boot-crud-spring-data-rest-demo&apos;&#x0A;- Original elements:&#x0A;     spring-boot-crud-spring-data-rest-demo/src/main/java/com.jj.springboot.cruddemo.rest&#x0A;     spring-boot-crud-spring-data-rest-demo/src/main/java/com.jj.springboot.cruddemo.service" description="Delete elements" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.jj.springboot.cruddemo.service" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.jj.springboot.cruddemo.rest" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1631111113357" subPackages="false" version="1.0"/>
+</session>

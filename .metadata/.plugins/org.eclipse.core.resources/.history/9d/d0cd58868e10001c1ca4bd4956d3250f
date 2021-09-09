@@ -1,0 +1,12 @@
+package com.jj.springboot.demo.mycoolapp.rest;
+
+import java.time.LocalTime;
+
+@RestController
+public class FunRestController {
+
+	@GetMapping("/")
+	public String getHomePage() {
+		return "Welcome to Spring Boot "+ LocalTime.now();
+	}
+}

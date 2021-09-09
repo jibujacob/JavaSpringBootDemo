@@ -1,0 +1,21 @@
+package com.jj.springboot.cruddemo.dao;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import com.jj.springboot.cruddemo.entity.Employee;
+
+@Repository
+public class EmployeeDAOImpl implements EmployeeDAO {
+
+	@Override
+	public List<Employee> getEmployees() {
+		
+		
+		
+		
+		return null;
+	}
+
+}

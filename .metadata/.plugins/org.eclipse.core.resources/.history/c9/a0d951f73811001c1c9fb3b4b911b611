@@ -1,0 +1,52 @@
+package com.jj.springdemo.thymeleafdemo.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.jj.springdemo.thymeleafdemo.dao.EmployeeDAO;
+import com.jj.springdemo.thymeleafdemo.entity.Employee;
+
+@Service
+public class EmployeeServiceImpl implements EmployeeService {
+	
+	@Autowired
+	private EmployeeDAO employeeDAO;
+
+	@Override
+	@Transactional
+	public List<Employee> getEmployees() {
+		
+		return employeeDAO.getEmployees();
+	}
+
+	@Override
+	@Transactional
+	public Employee getEmployeeById(int id) {
+		
+		return employeeDAO.getEmployeeById(id);
+	}
+
+	@Override
+	@Transactional
+	public void save(Employee employee) {
+		
+		employeeDAO.save(employee);
+	}
+
+	@Override
+	@Transactional
+	public void deleteById(int id) {
+		employeeDAO.deleteById(id);
+
+	}
+
+	@Override
+	public List<Employee> findAllByOrderByLastNameAsc() {
+		
+		return employeeDAO.findAllByOrderByLastNameAsc();
+	}
+
+}
